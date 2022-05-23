@@ -34,7 +34,8 @@ To get a local copy up and running follow these simple example steps.
 - open the command prompt in this directory.
 - write `git clone git@github.com:EidHachem/math-magicians.git`.
 - go to the repository folder in your command prompt `cd math-magicians`
-- use `npm start` to start live server
+- use `npm install` to install the dependencies.
+- use `npm start` to start live server.
 
 ## Prerequisites
 
