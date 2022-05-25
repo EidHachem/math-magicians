@@ -19,7 +19,7 @@ button {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 5rem);
-  grid-template-rows: minmax(1rem, auto) repeat(5, 3rem);
+  grid-template-rows: minmax(4rem, auto) repeat(5, 3rem);
   width: 30em;
 }
 
