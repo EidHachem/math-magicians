@@ -1,0 +1,31 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  color: #253759;
+  padding: 1em 0;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #011929;
+}
+
+footer {
+  text-align: center;
+  background-color: #b78c38;
+  color: #0e244d;
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  width: 100vw;
+}

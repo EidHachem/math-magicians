@@ -1,0 +1,16 @@
+.quote {
+  margin: 0 auto;
+  margin-top: 5em;
+  max-width: 80%;
+  text-align: center;
+}
+
+q {
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
