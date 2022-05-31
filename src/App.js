@@ -10,11 +10,11 @@ function App() {
     <div>
       <nav>
         <p className="logo">
-          <Link to="/math-magicians/">Math Magician</Link>
+          <Link to="/">Math Magician</Link>
         </p>
         <ul>
           <li>
-            <Link to="/math-magicians/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link to="calculator">Calculator</Link>

@@ -1,3 +1,5 @@
 {
-  "prettier.trailingComma": "all"
+  "prettier.trailingComma": "all",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 }
