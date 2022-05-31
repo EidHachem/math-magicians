@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  height: 100vh;
+.layout {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 5em;
+}
+
+.cal-title {
+  color: #253759;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 button {
@@ -17,10 +23,10 @@ button {
 }
 
 .grid-container {
+  padding: 3rem;
   display: grid;
   grid-template-columns: repeat(4, 5rem);
   grid-template-rows: minmax(4rem, auto) repeat(5, 3rem);
-  width: 30em;
 }
 
 .span-4 {
