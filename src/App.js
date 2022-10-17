@@ -17,17 +17,17 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="calculator">Calculator</Link>
+            <Link to="/calculator">Calculator</Link>
           </li>
           <li>
-            <Link to="quote">Quote</Link>
+            <Link to="/quote">Quote</Link>
           </li>
         </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="calculator" element={<Calculator />} />
-        <Route path="quote" element={<Quote />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quote" element={<Quote />} />
       </Routes>
     </div>
   );
