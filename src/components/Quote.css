@@ -14,3 +14,14 @@ q {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .quote {
+    max-width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
