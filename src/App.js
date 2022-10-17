@@ -1,5 +1,7 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import {
+  Routes, Route, NavLink, Link,
+} from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
@@ -14,13 +16,19 @@ function App() {
         </p>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <Link to="/calculator">Calculator</Link>
+            <NavLink to="/calculator" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Calculator
+            </NavLink>
           </li>
           <li>
-            <Link to="/quote">Quote</Link>
+            <NavLink to="/quote" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Quote
+            </NavLink>
           </li>
         </ul>
       </nav>

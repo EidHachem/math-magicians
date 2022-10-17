@@ -34,6 +34,13 @@ a {
   font-weight: 700;
 }
 
+.active {
+  padding: 0.3em;
+  background-color: #253759;
+  color: #b78c38;
+  border-radius: 20px;
+}
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
